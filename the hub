@@ -92,3 +92,9 @@ end)
 Everythingelsesection:NewButton("Undertale boss battles", "Sans momento", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/xxDeziQxx/UndertaleBossBattles/main/ByxxDeziQxx'))()
 end)
+
+--Pendulum Hub
+
+Everythingelsesection:NewButton("Pendulum Hub", "Fe hub L", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pendulum%20Hub%20V5.lua"))()
+end)
