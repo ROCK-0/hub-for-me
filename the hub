@@ -1,0 +1,94 @@
+--ROCK HUB W--
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("ROCK", "LightTheme")
+
+-- Scripts Tab --
+local Scripts = Window:NewTab("Scripts")
+-- YBA --
+local YbaSection = Scripts:NewSection("YBA")
+
+YbaSection:NewButton("B boy hub", "B### boy hub fr", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/zakater5/LuaRepo/main/YBA/MainGui.lua"))()
+end)
+
+YbaSection:NewButton("Yba cus yes", "Yba cus yes mhm", function()
+    getgenv().Key = "HelloEpicGUI"
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SupBabe/YBAHOPPER/main/YBAv2.lua"))()
+end)
+
+YbaSection:NewButton("black gui re written", "black >:)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Tobias020108Back/YBA-AUT/main/YBA-GUI-Rewrite.lua"))() 
+end)
+
+YbaSection:NewButton("Nuke Hub", "nuke incoming BEEP BEEP BEEP", function()
+    _G.Key = "key"
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader"))()
+end)
+
+--arsenal--
+local ArsenalSection = Scripts:NewSection("Arsenal")
+
+ArsenalSection:NewButton("Owl Hub", "Owl be like arsenal", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/GHLz3Zv5"))();
+end)
+
+--eclipse--
+local EclipseSection = Scripts:NewSection("Eclipse")
+
+EclipseSection:NewButton("Eclipse Hub", "Yo eclipse!?!!", function()
+    local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https://api.eclipsehub.xyz/auth"c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
+end)
+
+--Blox Fruits--
+local BloxFruitsSection = Scripts:NewSection("Blox Fruits n yeah")
+
+BloxFruitsSection:NewButton("Depresions thing", "depresion smh", function()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()
+end)
+
+--Bedwars--
+local BedwarsSection = Scripts:NewSection("Bedwars is trash")
+
+BloxFruitsSection:NewButton("Future gui", "THE FUTURE OF BEDWARS IS LAME", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/joeengo/Future/main/loadstring.lua', true))()
+end)
+
+BloxFruitsSection:NewButton("V4PE gui", " ur mom caught u vxping ", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
+
+--too lazy to make more yk--
+local Everythingelsesection = Scripts:NewSection("Everything else lol")
+--gpo
+Everythingelsesection:NewButton("GPO script", "ez free gpo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CFA-HUB/CFA-HUB/main/cfahubfree.lua"))()    
+end)
+
+Everythingelsesection:NewButton("GPO devil fruit noti", "ez free fruits L", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/ArponAG/Scripts/main/gpo.lua', true))()
+end)
+
+--criminality
+
+Everythingelsesection:NewButton("Femware", "get woman if not use this smh", function()
+    _G.FemKess = "FemWare On Top"
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/JackHiggly/RobloxThings/main/FemWare0", true))()
+end)
+
+--inf yeild
+
+Everythingelsesection:NewButton("INF yeild", "get woman if not use this smh", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Infinite-Store/Infinite-Store/main/main.lua"))()
+end)
+
+--funky friday
+
+Everythingelsesection:NewButton("Funky friday", "BEEP BOOP A EE OOO", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua"))()
+end)
+
+--undertale boss battles
+
+Everythingelsesection:NewButton("Undertale boss battles", "Sans momento", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/xxDeziQxx/UndertaleBossBattles/main/ByxxDeziQxx'))()
+end)
