@@ -1,9 +1,6 @@
 --ROCK HUB W--
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("ROCK", "LightTheme")
---  Toggle GUI --
-
-
 
 -- Scripts Tab --
 local Scripts = Window:NewTab("Scripts")
