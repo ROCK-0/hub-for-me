@@ -1,6 +1,9 @@
 --ROCK HUB W--
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("ROCK", "LightTheme")
+Section:NewKeybind("F", "F is the gui toggler!", Enum.KeyCode.F, function()
+	Library:ToggleUI()
+end)
 
 -- Scripts Tab --
 local Scripts = Window:NewTab("Scripts")
