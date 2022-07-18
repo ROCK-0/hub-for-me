@@ -1,9 +1,6 @@
 --ROCK HUB W--
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("ROCK", "LightTheme")
-Section:NewKeybind("K", "K is the gui toggler!", Enum.KeyCode.K, function()
-	Library:ToggleUI()
-end)
 
 -- Scripts Tab --
 local Scripts = Window:NewTab("Scripts")
@@ -100,4 +97,10 @@ end)
 
 Everythingelsesection:NewButton("Pendulum Hub", "Fe hub L", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pendulum%20Hub%20V5.lua"))()
+end)
+
+-- ui toggle keybind --
+
+Section:NewKeybind("K", "K is the gui toggler!", Enum.KeyCode.K, function()
+	Library:ToggleUI()
 end)
