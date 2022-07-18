@@ -1,6 +1,26 @@
 --ROCK HUB W--
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("ROCK", "LightTheme")
+--  Toggle GUI --
+local Window = script.Parent.Main
+local Open = false
+
+local PositionClosed = UDim2.new("yourpos")
+local PositionOpen = UDim2.new("yourpos")
+
+local UserInputService = game:GetService("UserInputService")
+
+UserInputService.InputBegan:Connect(function(KeyCode)
+	if KeyCode.KeyCode == Enum.KeyCode.RightShift then
+		if Open then
+			FrameObject:TweenPosition((PositionClosed), "Out", "Quart")
+			Open = false
+		else
+			Open = true
+			FrameObject:TweenPosition((PositionOpen), "Out", "Quint")
+		end
+	end
+end)
 
 -- Scripts Tab --
 local Scripts = Window:NewTab("Scripts")
